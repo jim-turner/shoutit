@@ -1,0 +1,3 @@
+If have this site so inputs will update the database up will not auto update to the chart on the index.html. Upon refresh the post will show up.
+The posts are not being ordered by id or with the newest post first
+There is no data validation being done as I had to remove it all so I could test the code by echoing out one part at a time to figure out how to get the app to post to the web server which it is now doing.
