@@ -8,29 +8,12 @@ $message = $_POST['message'];
 ?>
 
 
+
 <?php
 if(isset($_POST['submit'])){
+    mysqli_query($con, "INSERT INTO shouts (user, message)
+           VALUES ('$user', '$message')");
+  }   
     
-    
-    
-    
-  $sql = "INSERT INTO shouts (user, message)
-           VALUES ('$user', '$message')";
-    
-    
-    $result = mysqli_query($con, $sql);
-      
-    
-    
-     header("Location: index.php");  
-    
-    
-}
-
-
-        
-
-
-
 ?>
 
